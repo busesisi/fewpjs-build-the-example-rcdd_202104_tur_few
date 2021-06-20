@@ -1,6 +1,4 @@
 const FULL_HEART = '♥'
-
-// Your JavaScript code goes here!
 const likes = document.querySelectorAll('li.like');
 for (let like of likes) {
   like.addEventListener('click',function(event){
