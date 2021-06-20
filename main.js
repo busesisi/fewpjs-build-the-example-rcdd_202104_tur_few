@@ -27,7 +27,7 @@ function fillLike(event) {
         },3000);
       })
   } else {
-    // full heart 
+    // full heart
     currentLike.innerText = EMPTY_HEART;
     currentLike.classList.remove("activated-heart");
   }
